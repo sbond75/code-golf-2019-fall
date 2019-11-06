@@ -1,0 +1,1 @@
+for i in 1...50{let l=String(i,radix:2).filter{$0=="1"};if l.count % 2 != 0 {print(i)}}
